@@ -4,7 +4,6 @@ Ce document décrit comment exécuter automatiquement tous les scripts de
 simulation NS-3 correspondant aux scénarios **S1**, **S2**, **S3** et
 **S4**.
 
-------------------------------------------------------------------------
 
 ## 1. Accéder au répertoire NS-3
 
@@ -14,7 +13,6 @@ Depuis la racine du projet, se déplacer vers le dossier NS-3 :
 cd ns-allinone-3.42/ns-3.42
 ```
 
-------------------------------------------------------------------------
 
 ## 2. Configurer NS-3
 
@@ -24,8 +22,6 @@ Avant d'exécuter les scripts, configurez NS-3 :
 ./ns3 configure
 ```
 
-------------------------------------------------------------------------
-
 ## 3. Aller dans le dossier `scratch/`
 
 Les scripts d'exécution se trouvent dans le dossier `scratch` :
@@ -34,7 +30,6 @@ Les scripts d'exécution se trouvent dans le dossier `scratch` :
 cd scratch/
 ```
 
-------------------------------------------------------------------------
 
 ## 4. Exécuter les scénarios
 
@@ -42,7 +37,6 @@ Chaque bloc exécute les scripts d'un scénario donné **en parallèle**.\
 La commande `wait` permet d'attendre la fin de tous les scripts du
 scénario avant de lancer le suivant.
 
-------------------------------------------------------------------------
 
 ### Scénario S1
 
@@ -54,7 +48,6 @@ done
 wait
 ```
 
-------------------------------------------------------------------------
 
 ### Scénario S2
 
@@ -66,7 +59,7 @@ done
 wait
 ```
 
-------------------------------------------------------------------------
+
 
 ### Scénario S3
 
@@ -78,7 +71,6 @@ done
 wait
 ```
 
-------------------------------------------------------------------------
 
 ### Scénario S4
 
@@ -90,7 +82,6 @@ done
 wait
 ```
 
-------------------------------------------------------------------------
 
 ##  Notes Importantes
 
@@ -105,6 +96,4 @@ wait
 -   L'exécution en parallèle est recommandée pour profiter de machines
     multicœurs.
 
-------------------------------------------------------------------------
 
-##  Le README est prêt à être utilisé !
