@@ -10,7 +10,7 @@ simulation NS-3 correspondant aux scénarios **S1**, **S2**, **S3** et
 Depuis la racine du projet, se déplacer vers le dossier NS-3 :
 
 ``` bash
-cd ns-allinone-3.42/ns-3.42
+cd /NS3.42/ns-3.42
 ```
 
 
@@ -20,6 +20,7 @@ Avant d'exécuter les scripts, configurez NS-3 :
 
 ``` bash
 ./ns3 configure
+./ns3 build
 ```
 
 ## 3. Aller dans le dossier `scratch/`
@@ -95,5 +96,13 @@ wait
     commencer le suivant.
 -   L'exécution en parallèle est recommandée pour profiter de machines
     multicœurs.
+##  Output    
+-   Une fois terminer tu te deplace dans le doissier
+  ``` bash
+cd /NS3.42/ns-3.42
+```
+-   Tu verras le dossier nomme resulsfinal qui est le output
+-   Tu cree une branche results et push ce dossier dans la branche 
+
 
 
