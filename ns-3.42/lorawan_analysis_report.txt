@@ -1,0 +1,53 @@
+# RAPPORT D'ANALYSE LORAWAN MAB
+================================================================================
+
+**Nombre d'expériences analysées**: 27
+**Scénarios testés**: JOINT_CH_SF, SF_ONLY
+**Modes MAB testés**: MAB_COMBINATORIAL, MAB_INDEPENDENT, MAB_RANDOM
+**Tailles de réseau**: [3, 9, 15, 30]
+
+## PERFORMANCES MOYENNES PAR MODE MAB
+--------------------------------------------------
+
+### MAB_COMBINATORIAL
+- FSR moyen: 0.0278 (±0.0337)
+- Fairness moyen: 0.0517 (±0.0661)
+- Diversité SF moyenne: 1.46
+- Nombre d'expériences: 13
+
+### MAB_INDEPENDENT
+- FSR moyen: 0.0185 (±0.0287)
+- Fairness moyen: 0.0370 (±0.0574)
+- Diversité SF moyenne: 1.17
+- Nombre d'expériences: 6
+
+### MAB_RANDOM
+- FSR moyen: 0.0243 (±0.0346)
+- Fairness moyen: 0.0486 (±0.0692)
+- Diversité SF moyenne: 1.75
+- Nombre d'expériences: 8
+
+## COMPARAISON SCÉNARIOS
+--------------------------------------------------
+
+### JOINT_CH_SF
+- FSR moyen: 0.0238
+- Fairness moyen: 0.0476
+- Diversité SF moyenne: 1.64
+
+### SF_ONLY
+- FSR moyen: 0.0256
+- Fairness moyen: 0.0474
+- Diversité SF moyenne: 1.31
+
+## MEILLEURES CONFIGURATIONS
+--------------------------------------------------
+
+**Meilleure FSR**: 0.0833
+  Mode: MAB_COMBINATORIAL, Scénario: SF_ONLY, Devices: 3
+
+**Meilleure Fairness**: 0.1667
+  Mode: MAB_COMBINATORIAL, Scénario: SF_ONLY, Devices: 3
+
+**Meilleure Diversité SF**: 3
+  Mode: MAB_COMBINATORIAL, Scénario: SF_ONLY, Devices: 9
