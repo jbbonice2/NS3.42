@@ -1,0 +1,1273 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      The system is: Linux - 5.14.0-503.34.1.el9_5.x86_64 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/3.30.5/CompilerIdCXX/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/3.30.5/CompilerIdC/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-d3RZPJ"
+      binary: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-d3RZPJ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-d3RZPJ'
+        
+        Run Build Command(s): /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f69fc/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f69fc.dir/build.make CMakeFiles/cmTC_f69fc.dir/build
+        gmake[1]: Entering directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-d3RZPJ'
+        Building CXX object CMakeFiles/cmTC_f69fc.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_f69fc.dir/CMakeCXXCompilerABI.cpp.o -c /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-host-pie --enable-host-bind-now --enable-languages=c,c++,fortran,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-plugin --enable-initfini-array --without-isl --enable-multilib --with-linker-hash-style=gnu --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_64=x86-64-v2 --with-arch_32=x86-64 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.5.0 20240719 (Red Hat 11.5.0-5) (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f69fc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_f69fc.dir/'
+         /usr/libexec/gcc/x86_64-redhat-linux/11/cc1plus -quiet -v -D_GNU_SOURCE /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f69fc.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64-v2 -version -o /tmp/cciRUeXf.s
+        GNU C++17 (GCC) version 11.5.0 20240719 (Red Hat 11.5.0-5) (x86_64-redhat-linux)
+        	compiled by GNU C version 11.5.0 20240719 (Red Hat 11.5.0-5), GMP version 6.2.0, MPFR version 4.1.0-p9, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/11/../../../../x86_64-redhat-linux/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11
+         /usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux
+         /usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward
+         /usr/lib/gcc/x86_64-redhat-linux/11/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        GNU C++17 (GCC) version 11.5.0 20240719 (Red Hat 11.5.0-5) (x86_64-redhat-linux)
+        	compiled by GNU C version 11.5.0 20240719 (Red Hat 11.5.0-5), GMP version 6.2.0, MPFR version 4.1.0-p9, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 49af7bf74f046551c1979dd2b82e1084
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f69fc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_f69fc.dir/'
+         as -v --64 -o CMakeFiles/cmTC_f69fc.dir/CMakeCXXCompilerABI.cpp.o /tmp/cciRUeXf.s
+        GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-54.el9
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f69fc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_f69fc.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_f69fc
+        /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f69fc.dir/link.txt --verbose=1
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_f69fc.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f69fc
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-host-pie --enable-host-bind-now --enable-languages=c,c++,fortran,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-plugin --enable-initfini-array --without-isl --enable-multilib --with-linker-hash-style=gnu --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_64=x86-64-v2 --with-arch_32=x86-64 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.5.0 20240719 (Red Hat 11.5.0-5) (GCC) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f69fc' '-shared-libgcc' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'cmTC_f69fc.'
+         /usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEtySUk.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f69fc /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. -v CMakeFiles/cmTC_f69fc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o
+        collect2 version 11.5.0 20240719 (Red Hat 11.5.0-5)
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEtySUk.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f69fc /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. -v CMakeFiles/cmTC_f69fc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o
+        GNU ld version 2.35.2-54.el9
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f69fc' '-shared-libgcc' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'cmTC_f69fc.'
+        gmake[1]: Leaving directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-d3RZPJ'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/11/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11] ==> [/usr/include/c++/11]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux] ==> [/usr/include/c++/11/x86_64-redhat-linux]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/11/include] ==> [/usr/lib/gcc/x86_64-redhat-linux/11/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/11;/usr/include/c++/11/x86_64-redhat-linux;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-redhat-linux/11/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-d3RZPJ']
+        ignore line: []
+        ignore line: [Run Build Command(s): /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f69fc/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_f69fc.dir/build.make CMakeFiles/cmTC_f69fc.dir/build]
+        ignore line: [gmake[1]: Entering directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-d3RZPJ']
+        ignore line: [Building CXX object CMakeFiles/cmTC_f69fc.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_f69fc.dir/CMakeCXXCompilerABI.cpp.o -c /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-host-pie --enable-host-bind-now --enable-languages=c c++ fortran lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-plugin --enable-initfini-array --without-isl --enable-multilib --with-linker-hash-style=gnu --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_64=x86-64-v2 --with-arch_32=x86-64 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.5.0 20240719 (Red Hat 11.5.0-5) (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f69fc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_f69fc.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/11/cc1plus -quiet -v -D_GNU_SOURCE /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f69fc.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64-v2 -version -o /tmp/cciRUeXf.s]
+        ignore line: [GNU C++17 (GCC) version 11.5.0 20240719 (Red Hat 11.5.0-5) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 11.5.0 20240719 (Red Hat 11.5.0-5)  GMP version 6.2.0  MPFR version 4.1.0-p9  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/11/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/11/../../../../x86_64-redhat-linux/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/11/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (GCC) version 11.5.0 20240719 (Red Hat 11.5.0-5) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 11.5.0 20240719 (Red Hat 11.5.0-5)  GMP version 6.2.0  MPFR version 4.1.0-p9  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 49af7bf74f046551c1979dd2b82e1084]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f69fc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_f69fc.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_f69fc.dir/CMakeCXXCompilerABI.cpp.o /tmp/cciRUeXf.s]
+        ignore line: [GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-54.el9]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f69fc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_f69fc.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_f69fc]
+        ignore line: [/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f69fc.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v -Wl -v CMakeFiles/cmTC_f69fc.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f69fc]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-host-pie --enable-host-bind-now --enable-languages=c c++ fortran lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-plugin --enable-initfini-array --without-isl --enable-multilib --with-linker-hash-style=gnu --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_64=x86-64-v2 --with-arch_32=x86-64 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.5.0 20240719 (Red Hat 11.5.0-5) (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f69fc' '-shared-libgcc' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'cmTC_f69fc.']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEtySUk.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f69fc /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. -v CMakeFiles/cmTC_f69fc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/11/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccEtySUk.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--no-add-needed] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_f69fc] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/11] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/11]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/11/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_f69fc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/11/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/crtend.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o]
+        ignore line: [collect2 version 11.5.0 20240719 (Red Hat 11.5.0-5)]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEtySUk.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f69fc /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. -v CMakeFiles/cmTC_f69fc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/11] ==> [/usr/lib/gcc/x86_64-redhat-linux/11]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o;/usr/lib/gcc/x86_64-redhat-linux/11/crtend.o;/usr/lib64/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/11;/usr/lib64;/lib64;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld version 2.35.2-54.el9
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-FURaKw"
+      binary: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-FURaKw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-FURaKw'
+        
+        Run Build Command(s): /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b3311/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b3311.dir/build.make CMakeFiles/cmTC_b3311.dir/build
+        gmake[1]: Entering directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-FURaKw'
+        Building C object CMakeFiles/cmTC_b3311.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_b3311.dir/CMakeCCompilerABI.c.o -c /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-host-pie --enable-host-bind-now --enable-languages=c,c++,fortran,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-plugin --enable-initfini-array --without-isl --enable-multilib --with-linker-hash-style=gnu --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_64=x86-64-v2 --with-arch_32=x86-64 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.5.0 20240719 (Red Hat 11.5.0-5) (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b3311.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_b3311.dir/'
+         /usr/libexec/gcc/x86_64-redhat-linux/11/cc1 -quiet -v /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b3311.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64-v2 -version -o /tmp/ccaIr7sb.s
+        GNU C17 (GCC) version 11.5.0 20240719 (Red Hat 11.5.0-5) (x86_64-redhat-linux)
+        	compiled by GNU C version 11.5.0 20240719 (Red Hat 11.5.0-5), GMP version 6.2.0, MPFR version 4.1.0-p9, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/11/../../../../x86_64-redhat-linux/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-redhat-linux/11/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        GNU C17 (GCC) version 11.5.0 20240719 (Red Hat 11.5.0-5) (x86_64-redhat-linux)
+        	compiled by GNU C version 11.5.0 20240719 (Red Hat 11.5.0-5), GMP version 6.2.0, MPFR version 4.1.0-p9, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: d8a17bc88c45c82103f770314ee9eca3
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b3311.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_b3311.dir/'
+         as -v --64 -o CMakeFiles/cmTC_b3311.dir/CMakeCCompilerABI.c.o /tmp/ccaIr7sb.s
+        GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-54.el9
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b3311.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_b3311.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_b3311
+        /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3311.dir/link.txt --verbose=1
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_b3311.dir/CMakeCCompilerABI.c.o -o cmTC_b3311
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-host-pie --enable-host-bind-now --enable-languages=c,c++,fortran,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-plugin --enable-initfini-array --without-isl --enable-multilib --with-linker-hash-style=gnu --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_64=x86-64-v2 --with-arch_32=x86-64 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.5.0 20240719 (Red Hat 11.5.0-5) (GCC) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b3311' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'cmTC_b3311.'
+         /usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAtJZDD.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b3311 /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. -v CMakeFiles/cmTC_b3311.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o
+        collect2 version 11.5.0 20240719 (Red Hat 11.5.0-5)
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAtJZDD.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b3311 /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. -v CMakeFiles/cmTC_b3311.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o
+        GNU ld version 2.35.2-54.el9
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b3311' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'cmTC_b3311.'
+        gmake[1]: Leaving directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-FURaKw'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-redhat-linux/11/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/11/include] ==> [/usr/lib/gcc/x86_64-redhat-linux/11/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-redhat-linux/11/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-FURaKw']
+        ignore line: []
+        ignore line: [Run Build Command(s): /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b3311/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_b3311.dir/build.make CMakeFiles/cmTC_b3311.dir/build]
+        ignore line: [gmake[1]: Entering directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-FURaKw']
+        ignore line: [Building C object CMakeFiles/cmTC_b3311.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_b3311.dir/CMakeCCompilerABI.c.o -c /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-host-pie --enable-host-bind-now --enable-languages=c c++ fortran lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-plugin --enable-initfini-array --without-isl --enable-multilib --with-linker-hash-style=gnu --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_64=x86-64-v2 --with-arch_32=x86-64 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.5.0 20240719 (Red Hat 11.5.0-5) (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b3311.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_b3311.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/11/cc1 -quiet -v /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b3311.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64-v2 -version -o /tmp/ccaIr7sb.s]
+        ignore line: [GNU C17 (GCC) version 11.5.0 20240719 (Red Hat 11.5.0-5) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 11.5.0 20240719 (Red Hat 11.5.0-5)  GMP version 6.2.0  MPFR version 4.1.0-p9  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/11/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/11/../../../../x86_64-redhat-linux/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/11/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (GCC) version 11.5.0 20240719 (Red Hat 11.5.0-5) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 11.5.0 20240719 (Red Hat 11.5.0-5)  GMP version 6.2.0  MPFR version 4.1.0-p9  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: d8a17bc88c45c82103f770314ee9eca3]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b3311.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_b3311.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_b3311.dir/CMakeCCompilerABI.c.o /tmp/ccaIr7sb.s]
+        ignore line: [GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-54.el9]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b3311.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_b3311.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_b3311]
+        ignore line: [/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3311.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v -Wl -v CMakeFiles/cmTC_b3311.dir/CMakeCCompilerABI.c.o -o cmTC_b3311]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-host-pie --enable-host-bind-now --enable-languages=c c++ fortran lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-plugin --enable-initfini-array --without-isl --enable-multilib --with-linker-hash-style=gnu --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_64=x86-64-v2 --with-arch_32=x86-64 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.5.0 20240719 (Red Hat 11.5.0-5) (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b3311' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'cmTC_b3311.']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAtJZDD.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b3311 /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. -v CMakeFiles/cmTC_b3311.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/11/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccAtJZDD.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--no-add-needed] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_b3311] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/11] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/11]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/11/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_b3311.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/11/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/crtend.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o]
+        ignore line: [collect2 version 11.5.0 20240719 (Red Hat 11.5.0-5)]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAtJZDD.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b3311 /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. -v CMakeFiles/cmTC_b3311.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/11] ==> [/usr/lib/gcc/x86_64-redhat-linux/11]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o;/usr/lib/gcc/x86_64-redhat-linux/11/crtend.o;/usr/lib64/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/11;/usr/lib64;/lib64;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld version 2.35.2-54.el9
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "build-support/custom-modules/ns3-compiler-and-linker-support.cmake:64 (check_cxx_source_compiles)"
+      - "build-support/macros-and-definitions.cmake:55 (include)"
+      - "CMakeLists.txt:111 (include)"
+    checks:
+      - "Performing Test GCC_WORKING_PEDANTIC_SEMICOLON"
+    directories:
+      source: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-CQuWnL"
+      binary: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-CQuWnL"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/custom-modules;/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "GCC_WORKING_PEDANTIC_SEMICOLON"
+      cached: true
+      stdout: |
+        Change Dir: '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-CQuWnL'
+        
+        Run Build Command(s): /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_33718/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_33718.dir/build.make CMakeFiles/cmTC_33718.dir/build
+        gmake[1]: Entering directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-CQuWnL'
+        Building CXX object CMakeFiles/cmTC_33718.dir/src.cxx.o
+        /usr/bin/c++ -DGCC_WORKING_PEDANTIC_SEMICOLON  -Wall -Wpedantic -Werror -fPIE -o CMakeFiles/cmTC_33718.dir/src.cxx.o -c /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-CQuWnL/src.cxx
+        Linking CXX executable cmTC_33718
+        /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33718.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wpedantic -Werror CMakeFiles/cmTC_33718.dir/src.cxx.o -o cmTC_33718
+        gmake[1]: Leaving directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-CQuWnL'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "build-support/macros-and-definitions.cmake:620 (find_package)"
+      - "CMakeLists.txt:149 (process_options)"
+    directories:
+      source: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-o9q2P7"
+      binary: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-o9q2P7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/custom-modules;/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-o9q2P7'
+        
+        Run Build Command(s): /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d809f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d809f.dir/build.make CMakeFiles/cmTC_d809f.dir/build
+        gmake[1]: Entering directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-o9q2P7'
+        Building C object CMakeFiles/cmTC_d809f.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIE -o CMakeFiles/cmTC_d809f.dir/src.c.o -c /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-o9q2P7/src.c
+        Linking C executable cmTC_d809f
+        /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d809f.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_d809f.dir/src.c.o -o cmTC_d809f
+        gmake[1]: Leaving directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-o9q2P7'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "build-support/macros-and-definitions.cmake:1066 (check_cxx_source_compiles)"
+      - "CMakeLists.txt:149 (process_options)"
+    checks:
+      - "Performing Test HAVE_UINT128_T"
+    directories:
+      source: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-gGIPfr"
+      binary: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-gGIPfr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/custom-modules;/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_UINT128_T"
+      cached: true
+      stdout: |
+        Change Dir: '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-gGIPfr'
+        
+        Run Build Command(s): /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3722a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3722a.dir/build.make CMakeFiles/cmTC_3722a.dir/build
+        gmake[1]: Entering directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-gGIPfr'
+        Building CXX object CMakeFiles/cmTC_3722a.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_UINT128_T  -std=c++20 -fPIE -o CMakeFiles/cmTC_3722a.dir/src.cxx.o -c /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-gGIPfr/src.cxx
+        /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-gGIPfr/src.cxx: In function ‘int main()’:
+        /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-gGIPfr/src.cxx:4:18: error: ‘uint128_t’ was not declared in this scope; did you mean ‘uint8_t’?
+            4 |             if ((uint128_t *) 0) return 0;
+              |                  ^~~~~~~~~
+              |                  uint8_t
+        /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-gGIPfr/src.cxx:4:29: error: expected primary-expression before ‘)’ token
+            4 |             if ((uint128_t *) 0) return 0;
+              |                             ^
+        /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-gGIPfr/src.cxx:4:30: error: expected ‘)’ before numeric constant
+            4 |             if ((uint128_t *) 0) return 0;
+              |                ~             ^~
+              |                              )
+        /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-gGIPfr/src.cxx:5:25: error: ‘uint128_t’ was not declared in this scope; did you mean ‘uint8_t’?
+            5 |             if (sizeof (uint128_t)) return 0;
+              |                         ^~~~~~~~~
+              |                         uint8_t
+        gmake[1]: *** [CMakeFiles/cmTC_3722a.dir/build.make:78: CMakeFiles/cmTC_3722a.dir/src.cxx.o] Error 1
+        gmake[1]: Leaving directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-gGIPfr'
+        gmake: *** [Makefile:127: cmTC_3722a/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "build-support/macros-and-definitions.cmake:1076 (check_cxx_source_compiles)"
+      - "CMakeLists.txt:149 (process_options)"
+    checks:
+      - "Performing Test HAVE___UINT128_T"
+    directories:
+      source: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-IxrLfI"
+      binary: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-IxrLfI"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/custom-modules;/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE___UINT128_T"
+      cached: true
+      stdout: |
+        Change Dir: '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-IxrLfI'
+        
+        Run Build Command(s): /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_42214/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_42214.dir/build.make CMakeFiles/cmTC_42214.dir/build
+        gmake[1]: Entering directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-IxrLfI'
+        Building CXX object CMakeFiles/cmTC_42214.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE___UINT128_T  -std=c++20 -fPIE -o CMakeFiles/cmTC_42214.dir/src.cxx.o -c /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-IxrLfI/src.cxx
+        Linking CXX executable cmTC_42214
+        /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42214.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_42214.dir/src.cxx.o -o cmTC_42214
+        gmake[1]: Leaving directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-IxrLfI'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "build-support/macros-and-definitions.cmake:1122 (check_include_file)"
+      - "CMakeLists.txt:149 (process_options)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-NY1L1M"
+      binary: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-NY1L1M"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/custom-modules;/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-NY1L1M'
+        
+        Run Build Command(s): /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_de4e2/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_de4e2.dir/build.make CMakeFiles/cmTC_de4e2.dir/build
+        gmake[1]: Entering directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-NY1L1M'
+        Building C object CMakeFiles/cmTC_de4e2.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -fPIE -o CMakeFiles/cmTC_de4e2.dir/CheckIncludeFile.c.o -c /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-NY1L1M/CheckIncludeFile.c
+        Linking C executable cmTC_de4e2
+        /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de4e2.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_de4e2.dir/CheckIncludeFile.c.o -o cmTC_de4e2
+        gmake[1]: Leaving directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-NY1L1M'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "build-support/macros-and-definitions.cmake:1123 (check_include_file)"
+      - "CMakeLists.txt:149 (process_options)"
+    checks:
+      - "Looking for inttypes.h"
+    directories:
+      source: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-KlGgDd"
+      binary: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-KlGgDd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/custom-modules;/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-KlGgDd'
+        
+        Run Build Command(s): /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4f667/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4f667.dir/build.make CMakeFiles/cmTC_4f667.dir/build
+        gmake[1]: Entering directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-KlGgDd'
+        Building C object CMakeFiles/cmTC_4f667.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -fPIE -o CMakeFiles/cmTC_4f667.dir/CheckIncludeFile.c.o -c /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-KlGgDd/CheckIncludeFile.c
+        Linking C executable cmTC_4f667
+        /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f667.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_4f667.dir/CheckIncludeFile.c.o -o cmTC_4f667
+        gmake[1]: Leaving directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-KlGgDd'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "build-support/macros-and-definitions.cmake:1124 (check_include_file)"
+      - "CMakeLists.txt:149 (process_options)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-MlbCBI"
+      binary: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-MlbCBI"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/custom-modules;/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-MlbCBI'
+        
+        Run Build Command(s): /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ad1e8/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ad1e8.dir/build.make CMakeFiles/cmTC_ad1e8.dir/build
+        gmake[1]: Entering directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-MlbCBI'
+        Building C object CMakeFiles/cmTC_ad1e8.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -fPIE -o CMakeFiles/cmTC_ad1e8.dir/CheckIncludeFile.c.o -c /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-MlbCBI/CheckIncludeFile.c
+        Linking C executable cmTC_ad1e8
+        /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad1e8.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_ad1e8.dir/CheckIncludeFile.c.o -o cmTC_ad1e8
+        gmake[1]: Leaving directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-MlbCBI'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "build-support/macros-and-definitions.cmake:1125 (check_include_file)"
+      - "CMakeLists.txt:149 (process_options)"
+    checks:
+      - "Looking for sys/stat.h"
+    directories:
+      source: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-TV5BuK"
+      binary: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-TV5BuK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/custom-modules;/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYS_STAT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-TV5BuK'
+        
+        Run Build Command(s): /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dd45e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_dd45e.dir/build.make CMakeFiles/cmTC_dd45e.dir/build
+        gmake[1]: Entering directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-TV5BuK'
+        Building C object CMakeFiles/cmTC_dd45e.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -fPIE -o CMakeFiles/cmTC_dd45e.dir/CheckIncludeFile.c.o -c /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-TV5BuK/CheckIncludeFile.c
+        Linking C executable cmTC_dd45e
+        /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd45e.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_dd45e.dir/CheckIncludeFile.c.o -o cmTC_dd45e
+        gmake[1]: Leaving directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-TV5BuK'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "build-support/macros-and-definitions.cmake:1126 (check_include_file)"
+      - "CMakeLists.txt:149 (process_options)"
+    checks:
+      - "Looking for dirent.h"
+    directories:
+      source: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-fEmSBX"
+      binary: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-fEmSBX"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/custom-modules;/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_DIRENT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-fEmSBX'
+        
+        Run Build Command(s): /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7b418/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7b418.dir/build.make CMakeFiles/cmTC_7b418.dir/build
+        gmake[1]: Entering directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-fEmSBX'
+        Building C object CMakeFiles/cmTC_7b418.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -fPIE -o CMakeFiles/cmTC_7b418.dir/CheckIncludeFile.c.o -c /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-fEmSBX/CheckIncludeFile.c
+        Linking C executable cmTC_7b418
+        /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b418.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_7b418.dir/CheckIncludeFile.c.o -o cmTC_7b418
+        gmake[1]: Leaving directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-fEmSBX'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "build-support/macros-and-definitions.cmake:1127 (check_include_file)"
+      - "CMakeLists.txt:149 (process_options)"
+    checks:
+      - "Looking for stdlib.h"
+    directories:
+      source: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-NNEhLO"
+      binary: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-NNEhLO"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/custom-modules;/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STDLIB_H"
+      cached: true
+      stdout: |
+        Change Dir: '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-NNEhLO'
+        
+        Run Build Command(s): /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_97298/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_97298.dir/build.make CMakeFiles/cmTC_97298.dir/build
+        gmake[1]: Entering directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-NNEhLO'
+        Building C object CMakeFiles/cmTC_97298.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -fPIE -o CMakeFiles/cmTC_97298.dir/CheckIncludeFile.c.o -c /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-NNEhLO/CheckIncludeFile.c
+        Linking C executable cmTC_97298
+        /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97298.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_97298.dir/CheckIncludeFile.c.o -o cmTC_97298
+        gmake[1]: Leaving directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-NNEhLO'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "build-support/macros-and-definitions.cmake:1128 (check_include_file)"
+      - "CMakeLists.txt:149 (process_options)"
+    checks:
+      - "Looking for signal.h"
+    directories:
+      source: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-lBJBpP"
+      binary: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-lBJBpP"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/custom-modules;/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SIGNAL_H"
+      cached: true
+      stdout: |
+        Change Dir: '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-lBJBpP'
+        
+        Run Build Command(s): /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ceee8/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ceee8.dir/build.make CMakeFiles/cmTC_ceee8.dir/build
+        gmake[1]: Entering directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-lBJBpP'
+        Building C object CMakeFiles/cmTC_ceee8.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -fPIE -o CMakeFiles/cmTC_ceee8.dir/CheckIncludeFile.c.o -c /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-lBJBpP/CheckIncludeFile.c
+        Linking C executable cmTC_ceee8
+        /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ceee8.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_ceee8.dir/CheckIncludeFile.c.o -o cmTC_ceee8
+        gmake[1]: Leaving directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-lBJBpP'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "build-support/macros-and-definitions.cmake:1129 (check_include_file)"
+      - "CMakeLists.txt:149 (process_options)"
+    checks:
+      - "Looking for netpacket/packet.h"
+    directories:
+      source: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-05TYci"
+      binary: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-05TYci"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/custom-modules;/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PACKETH"
+      cached: true
+      stdout: |
+        Change Dir: '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-05TYci'
+        
+        Run Build Command(s): /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e443f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e443f.dir/build.make CMakeFiles/cmTC_e443f.dir/build
+        gmake[1]: Entering directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-05TYci'
+        Building C object CMakeFiles/cmTC_e443f.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -fPIE -o CMakeFiles/cmTC_e443f.dir/CheckIncludeFile.c.o -c /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-05TYci/CheckIncludeFile.c
+        Linking C executable cmTC_e443f
+        /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e443f.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_e443f.dir/CheckIncludeFile.c.o -o cmTC_e443f
+        gmake[1]: Leaving directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-05TYci'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "build-support/macros-and-definitions.cmake:1130 (check_function_exists)"
+      - "CMakeLists.txt:149 (process_options)"
+    checks:
+      - "Looking for getenv"
+    directories:
+      source: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-yHbtmq"
+      binary: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-yHbtmq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/custom-modules;/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_GETENV"
+      cached: true
+      stdout: |
+        Change Dir: '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-yHbtmq'
+        
+        Run Build Command(s): /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cfc91/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_cfc91.dir/build.make CMakeFiles/cmTC_cfc91.dir/build
+        gmake[1]: Entering directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-yHbtmq'
+        Building C object CMakeFiles/cmTC_cfc91.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getenv -fPIE -o CMakeFiles/cmTC_cfc91.dir/CheckFunctionExists.c.o -c /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-yHbtmq/CheckFunctionExists.c
+        Linking C executable cmTC_cfc91
+        /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfc91.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getenv CMakeFiles/cmTC_cfc91.dir/CheckFunctionExists.c.o -o cmTC_cfc91
+        gmake[1]: Leaving directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-yHbtmq'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "src/antenna/CMakeLists.txt:2 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test HAVE_STD_BESSEL_FUNC"
+    directories:
+      source: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-cKq7wB"
+      binary: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-cKq7wB"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/custom-modules;/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STD_BESSEL_FUNC"
+      cached: true
+      stdout: |
+        Change Dir: '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-cKq7wB'
+        
+        Run Build Command(s): /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_13fa7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_13fa7.dir/build.make CMakeFiles/cmTC_13fa7.dir/build
+        gmake[1]: Entering directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-cKq7wB'
+        Building CXX object CMakeFiles/cmTC_13fa7.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_STD_BESSEL_FUNC  -std=c++20 -fPIE -o CMakeFiles/cmTC_13fa7.dir/src.cxx.o -c /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-cKq7wB/src.cxx
+        Linking CXX executable cmTC_13fa7
+        /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13fa7.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_13fa7.dir/src.cxx.o -o cmTC_13fa7
+        gmake[1]: Leaving directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-cKq7wB'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "src/core/CMakeLists.txt:17 (check_include_files)"
+    checks:
+      - "Looking for include files boost/units/quantity.hpp, boost/units/systems/si.hpp"
+    directories:
+      source: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-vvjKpr"
+      binary: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-vvjKpr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/custom-modules;/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_BOOST_UNITS"
+      cached: true
+      stdout: |
+        Change Dir: '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-vvjKpr'
+        
+        Run Build Command(s): /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_56541/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_56541.dir/build.make CMakeFiles/cmTC_56541.dir/build
+        gmake[1]: Entering directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-vvjKpr'
+        Building CXX object CMakeFiles/cmTC_56541.dir/HAVE_BOOST_UNITS.cpp.o
+        /usr/bin/c++   -std=c++20 -fPIE -o CMakeFiles/cmTC_56541.dir/HAVE_BOOST_UNITS.cpp.o -c /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-vvjKpr/HAVE_BOOST_UNITS.cpp
+        /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-vvjKpr/HAVE_BOOST_UNITS.cpp:2:10: fatal error: boost/units/quantity.hpp: No such file or directory
+            2 | #include <boost/units/quantity.hpp>
+              |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_56541.dir/build.make:78: CMakeFiles/cmTC_56541.dir/HAVE_BOOST_UNITS.cpp.o] Error 1
+        gmake[1]: Leaving directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-vvjKpr'
+        gmake: *** [Makefile:127: cmTC_56541/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "src/fd-net-device/CMakeLists.txt:3 (check_include_file)"
+    checks:
+      - "Looking for net/ethernet.h"
+    directories:
+      source: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-KclV81"
+      binary: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-KclV81"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/custom-modules;/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_NET_ETHERNET_H"
+      cached: true
+      stdout: |
+        Change Dir: '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-KclV81'
+        
+        Run Build Command(s): /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_37c7c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_37c7c.dir/build.make CMakeFiles/cmTC_37c7c.dir/build
+        gmake[1]: Entering directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-KclV81'
+        Building C object CMakeFiles/cmTC_37c7c.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -fPIE -o CMakeFiles/cmTC_37c7c.dir/CheckIncludeFile.c.o -c /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-KclV81/CheckIncludeFile.c
+        Linking C executable cmTC_37c7c
+        /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37c7c.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_37c7c.dir/CheckIncludeFile.c.o -o cmTC_37c7c
+        gmake[1]: Leaving directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-KclV81'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "src/fd-net-device/CMakeLists.txt:7 (check_include_file)"
+    checks:
+      - "Looking for netpacket/packet.h"
+    directories:
+      source: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-tG2rpZ"
+      binary: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-tG2rpZ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/custom-modules;/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PACKET_H"
+      cached: true
+      stdout: |
+        Change Dir: '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-tG2rpZ'
+        
+        Run Build Command(s): /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_de01c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_de01c.dir/build.make CMakeFiles/cmTC_de01c.dir/build
+        gmake[1]: Entering directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-tG2rpZ'
+        Building C object CMakeFiles/cmTC_de01c.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -fPIE -o CMakeFiles/cmTC_de01c.dir/CheckIncludeFile.c.o -c /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-tG2rpZ/CheckIncludeFile.c
+        Linking C executable cmTC_de01c
+        /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de01c.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_de01c.dir/CheckIncludeFile.c.o -o cmTC_de01c
+        gmake[1]: Leaving directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-tG2rpZ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "src/fd-net-device/CMakeLists.txt:11 (check_include_file)"
+    checks:
+      - "Looking for net/if.h"
+    directories:
+      source: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-kkmm5H"
+      binary: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-kkmm5H"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/custom-modules;/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_IF_NETS_H"
+      cached: true
+      stdout: |
+        Change Dir: '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-kkmm5H'
+        
+        Run Build Command(s): /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_73420/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_73420.dir/build.make CMakeFiles/cmTC_73420.dir/build
+        gmake[1]: Entering directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-kkmm5H'
+        Building C object CMakeFiles/cmTC_73420.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -fPIE -o CMakeFiles/cmTC_73420.dir/CheckIncludeFile.c.o -c /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-kkmm5H/CheckIncludeFile.c
+        Linking C executable cmTC_73420
+        /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73420.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_73420.dir/CheckIncludeFile.c.o -o cmTC_73420
+        gmake[1]: Leaving directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-kkmm5H'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "src/fd-net-device/CMakeLists.txt:15 (check_include_file)"
+    checks:
+      - "Looking for linux/if_tun.h"
+    directories:
+      source: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-ETr9AX"
+      binary: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-ETr9AX"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/custom-modules;/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_IF_TUN_H"
+      cached: true
+      stdout: |
+        Change Dir: '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-ETr9AX'
+        
+        Run Build Command(s): /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c472a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c472a.dir/build.make CMakeFiles/cmTC_c472a.dir/build
+        gmake[1]: Entering directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-ETr9AX'
+        Building C object CMakeFiles/cmTC_c472a.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -fPIE -o CMakeFiles/cmTC_c472a.dir/CheckIncludeFile.c.o -c /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-ETr9AX/CheckIncludeFile.c
+        Linking C executable cmTC_c472a
+        /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c472a.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_c472a.dir/CheckIncludeFile.c.o -o cmTC_c472a
+        gmake[1]: Leaving directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-ETr9AX'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "src/fd-net-device/CMakeLists.txt:19 (check_include_file)"
+    checks:
+      - "Looking for net/netmap_user.h"
+    directories:
+      source: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-l35Too"
+      binary: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-l35Too"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/custom-modules;/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_NETMAP_USER_H"
+      cached: true
+      stdout: |
+        Change Dir: '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-l35Too'
+        
+        Run Build Command(s): /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4168c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4168c.dir/build.make CMakeFiles/cmTC_4168c.dir/build
+        gmake[1]: Entering directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-l35Too'
+        Building C object CMakeFiles/cmTC_4168c.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -fPIE -o CMakeFiles/cmTC_4168c.dir/CheckIncludeFile.c.o -c /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-l35Too/CheckIncludeFile.c
+        /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-l35Too/CheckIncludeFile.c:1:10: fatal error: net/netmap_user.h: No such file or directory
+            1 | #include <net/netmap_user.h>
+              |          ^~~~~~~~~~~~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_4168c.dir/build.make:78: CMakeFiles/cmTC_4168c.dir/CheckIncludeFile.c.o] Error 1
+        gmake[1]: Leaving directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-l35Too'
+        gmake: *** [Makefile:127: cmTC_4168c/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "src/fd-net-device/CMakeLists.txt:23 (check_include_file)"
+    checks:
+      - "Looking for sys/ioctl.h"
+    directories:
+      source: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-i62J88"
+      binary: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-i62J88"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/custom-modules;/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build-support/3rd-party"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYS_IOCTL_H"
+      cached: true
+      stdout: |
+        Change Dir: '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-i62J88'
+        
+        Run Build Command(s): /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_56ee3/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_56ee3.dir/build.make CMakeFiles/cmTC_56ee3.dir/build
+        gmake[1]: Entering directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-i62J88'
+        Building C object CMakeFiles/cmTC_56ee3.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -fPIE -o CMakeFiles/cmTC_56ee3.dir/CheckIncludeFile.c.o -c /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-i62J88/CheckIncludeFile.c
+        Linking C executable cmTC_56ee3
+        /nfs/home/jeanpetityvelosb/cmake-3.30.5-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56ee3.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_56ee3.dir/CheckIncludeFile.c.o -o cmTC_56ee3
+        gmake[1]: Leaving directory '/nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-i62J88'
+        
+      exitCode: 0
+...

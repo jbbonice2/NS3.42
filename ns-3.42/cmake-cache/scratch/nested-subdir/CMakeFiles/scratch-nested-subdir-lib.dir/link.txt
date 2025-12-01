@@ -1,0 +1,2 @@
+/usr/bin/ar qc /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build/lib64/libscratch-nested-subdir-lib.a "CMakeFiles/scratch-nested-subdir-lib.dir/lib/scratch-nested-subdir-library-source.cc.o"
+/usr/bin/ranlib /nfs/home/jeanpetityvelosb/project/python/Bonice/NS3.42/ns-3.42/build/lib64/libscratch-nested-subdir-lib.a
