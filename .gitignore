@@ -7,7 +7,7 @@ build/
 # Fichiers de résultats de simulation
 *_results/
 *_results_*/
-*.csv
+# *.csv
 *.log
 *.dat
 *.pcap

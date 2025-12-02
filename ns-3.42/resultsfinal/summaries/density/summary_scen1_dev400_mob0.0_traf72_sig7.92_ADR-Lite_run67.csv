@@ -1,0 +1,2 @@
+NumDevices,MobilitySpeed,TrafficInterval,Sigma,RunNumber,TotalPackets,SuccessfulPackets,PDR_Percent,AvgEnergy_mJ
+400,0.0,72,7.92,67,44000,36329,82.57,0.166610
